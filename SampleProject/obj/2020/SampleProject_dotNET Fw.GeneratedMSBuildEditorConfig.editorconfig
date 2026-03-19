@@ -1,0 +1,11 @@
+is_global = true
+build_property.ApplicationManifest = 
+build_property.StartupObject = 
+build_property.ApplicationDefaultFont = 
+build_property.ApplicationHighDpiMode = 
+build_property.ApplicationUseCompatibleTextRendering = 
+build_property.ApplicationVisualStyles = 
+build_property.RootNamespace = VSolution
+build_property.ProjectDir = D:\OneDrive\07-Data_Public\04-Data_Revit\01-Revit API\01-Solution\SampleProject Multi Target Fw\SampleProject\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

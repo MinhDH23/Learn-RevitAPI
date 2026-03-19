@@ -1,0 +1,54 @@
+D:\OneDrive\07-Data_Public\04-Data_Revit\01-Revit API\01-Solution Rebar\SampleProject Multi Target\SampleProject\bin\Debug\AddRebarDetail.2020.dll
+D:\OneDrive\07-Data_Public\04-Data_Revit\01-Revit API\01-Solution Rebar\SampleProject Multi Target\SampleProject\bin\Debug\AddRebarDetail.2020.pdb
+D:\OneDrive\07-Data_Public\04-Data_Revit\01-Revit API\01-Solution Rebar\SampleProject Multi Target\SampleProject\bin\Debug\CommonServiceLocator.dll
+D:\OneDrive\07-Data_Public\04-Data_Revit\01-Revit API\01-Solution Rebar\SampleProject Multi Target\SampleProject\bin\Debug\ControlzEx.dll
+D:\OneDrive\07-Data_Public\04-Data_Revit\01-Revit API\01-Solution Rebar\SampleProject Multi Target\SampleProject\bin\Debug\EPPlus.dll
+D:\OneDrive\07-Data_Public\04-Data_Revit\01-Revit API\01-Solution Rebar\SampleProject Multi Target\SampleProject\bin\Debug\MahApps.Metro.dll
+D:\OneDrive\07-Data_Public\04-Data_Revit\01-Revit API\01-Solution Rebar\SampleProject Multi Target\SampleProject\bin\Debug\Microsoft.Xaml.Behaviors.dll
+D:\OneDrive\07-Data_Public\04-Data_Revit\01-Revit API\01-Solution Rebar\SampleProject Multi Target\SampleProject\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+D:\OneDrive\07-Data_Public\04-Data_Revit\01-Revit API\01-Solution Rebar\SampleProject Multi Target\SampleProject\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+D:\OneDrive\07-Data_Public\04-Data_Revit\01-Revit API\01-Solution Rebar\SampleProject Multi Target\SampleProject\bin\Debug\GalaSoft.MvvmLight.dll
+D:\OneDrive\07-Data_Public\04-Data_Revit\01-Revit API\01-Solution Rebar\SampleProject Multi Target\SampleProject\bin\Debug\System.Windows.Interactivity.dll
+D:\OneDrive\07-Data_Public\04-Data_Revit\01-Revit API\01-Solution Rebar\SampleProject Multi Target\SampleProject\bin\Debug\Newtonsoft.Json.dll
+D:\OneDrive\07-Data_Public\04-Data_Revit\01-Revit API\01-Solution Rebar\SampleProject Multi Target\SampleProject\bin\Debug\de\MahApps.Metro.resources.dll
+D:\OneDrive\07-Data_Public\04-Data_Revit\01-Revit API\01-Solution Rebar\SampleProject Multi Target\SampleProject\bin\Debug\VSolRC.Common.2020.dll
+D:\OneDrive\07-Data_Public\04-Data_Revit\01-Revit API\01-Solution Rebar\SampleProject Multi Target\SampleProject\obj\2020\SampleProject_Dotnet.csproj.AssemblyReference.cache
+D:\OneDrive\07-Data_Public\04-Data_Revit\01-Revit API\01-Solution Rebar\SampleProject Multi Target\SampleProject\obj\2020\SampleProject_Dotnet.GeneratedMSBuildEditorConfig.editorconfig
+D:\OneDrive\07-Data_Public\04-Data_Revit\01-Revit API\01-Solution Rebar\SampleProject Multi Target\SampleProject\obj\2020\SampleProject_Dotnet.csproj.CoreCompileInputs.cache
+D:\OneDrive\07-Data_Public\04-Data_Revit\01-Revit API\01-Solution Rebar\SampleProject Multi Target\SampleProject\obj\2020\SamplePr.0893759F.Up2Date
+D:\OneDrive\07-Data_Public\04-Data_Revit\01-Revit API\01-Solution Rebar\SampleProject Multi Target\SampleProject\obj\2020\AddRebarDetail.2020.dll
+D:\OneDrive\07-Data_Public\04-Data_Revit\01-Revit API\01-Solution Rebar\SampleProject Multi Target\SampleProject\obj\2020\AddRebarDetail.2020.pdb
+D:\OneDrive\07-Data_Public\04-Data_Revit\01-Revit API\01-Solution Rebar\SampleProject Multi Target\SampleProject\bin\Debug_Dotnet\AddRebarDetail.2020.dll
+D:\OneDrive\07-Data_Public\04-Data_Revit\01-Revit API\01-Solution Rebar\SampleProject Multi Target\SampleProject\bin\Debug_Dotnet\AddRebarDetail.2020.pdb
+D:\OneDrive\07-Data_Public\04-Data_Revit\01-Revit API\01-Solution Rebar\SampleProject Multi Target\SampleProject\bin\Debug_Dotnet\CommonServiceLocator.dll
+D:\OneDrive\07-Data_Public\04-Data_Revit\01-Revit API\01-Solution Rebar\SampleProject Multi Target\SampleProject\bin\Debug_Dotnet\ControlzEx.dll
+D:\OneDrive\07-Data_Public\04-Data_Revit\01-Revit API\01-Solution Rebar\SampleProject Multi Target\SampleProject\bin\Debug_Dotnet\EPPlus.dll
+D:\OneDrive\07-Data_Public\04-Data_Revit\01-Revit API\01-Solution Rebar\SampleProject Multi Target\SampleProject\bin\Debug_Dotnet\MahApps.Metro.dll
+D:\OneDrive\07-Data_Public\04-Data_Revit\01-Revit API\01-Solution Rebar\SampleProject Multi Target\SampleProject\bin\Debug_Dotnet\Microsoft.Xaml.Behaviors.dll
+D:\OneDrive\07-Data_Public\04-Data_Revit\01-Revit API\01-Solution Rebar\SampleProject Multi Target\SampleProject\bin\Debug_Dotnet\GalaSoft.MvvmLight.Extras.dll
+D:\OneDrive\07-Data_Public\04-Data_Revit\01-Revit API\01-Solution Rebar\SampleProject Multi Target\SampleProject\bin\Debug_Dotnet\GalaSoft.MvvmLight.Platform.dll
+D:\OneDrive\07-Data_Public\04-Data_Revit\01-Revit API\01-Solution Rebar\SampleProject Multi Target\SampleProject\bin\Debug_Dotnet\GalaSoft.MvvmLight.dll
+D:\OneDrive\07-Data_Public\04-Data_Revit\01-Revit API\01-Solution Rebar\SampleProject Multi Target\SampleProject\bin\Debug_Dotnet\System.Windows.Interactivity.dll
+D:\OneDrive\07-Data_Public\04-Data_Revit\01-Revit API\01-Solution Rebar\SampleProject Multi Target\SampleProject\bin\Debug_Dotnet\Newtonsoft.Json.dll
+D:\OneDrive\07-Data_Public\04-Data_Revit\01-Revit API\01-Solution Rebar\SampleProject Multi Target\SampleProject\bin\Debug_Dotnet\de\MahApps.Metro.resources.dll
+D:\OneDrive\07-Data_Public\04-Data_Revit\01-Revit API\01-Solution Rebar\SampleProject Multi Target\SampleProject\bin\Debug_Dotnet\VSolRC.Common.2020.dll
+D:\OneDrive\07-Data_Public\04-Data_Revit\01-Revit API\01-Solution\SampleProject Multi Target\SampleProject\bin\Debug_Dotnet\AddRebarDetail.2020.dll
+D:\OneDrive\07-Data_Public\04-Data_Revit\01-Revit API\01-Solution\SampleProject Multi Target\SampleProject\bin\Debug_Dotnet\AddRebarDetail.2020.pdb
+D:\OneDrive\07-Data_Public\04-Data_Revit\01-Revit API\01-Solution\SampleProject Multi Target\SampleProject\bin\Debug_Dotnet\CommonServiceLocator.dll
+D:\OneDrive\07-Data_Public\04-Data_Revit\01-Revit API\01-Solution\SampleProject Multi Target\SampleProject\bin\Debug_Dotnet\ControlzEx.dll
+D:\OneDrive\07-Data_Public\04-Data_Revit\01-Revit API\01-Solution\SampleProject Multi Target\SampleProject\bin\Debug_Dotnet\EPPlus.dll
+D:\OneDrive\07-Data_Public\04-Data_Revit\01-Revit API\01-Solution\SampleProject Multi Target\SampleProject\bin\Debug_Dotnet\MahApps.Metro.dll
+D:\OneDrive\07-Data_Public\04-Data_Revit\01-Revit API\01-Solution\SampleProject Multi Target\SampleProject\bin\Debug_Dotnet\Microsoft.Xaml.Behaviors.dll
+D:\OneDrive\07-Data_Public\04-Data_Revit\01-Revit API\01-Solution\SampleProject Multi Target\SampleProject\bin\Debug_Dotnet\GalaSoft.MvvmLight.Extras.dll
+D:\OneDrive\07-Data_Public\04-Data_Revit\01-Revit API\01-Solution\SampleProject Multi Target\SampleProject\bin\Debug_Dotnet\GalaSoft.MvvmLight.Platform.dll
+D:\OneDrive\07-Data_Public\04-Data_Revit\01-Revit API\01-Solution\SampleProject Multi Target\SampleProject\bin\Debug_Dotnet\GalaSoft.MvvmLight.dll
+D:\OneDrive\07-Data_Public\04-Data_Revit\01-Revit API\01-Solution\SampleProject Multi Target\SampleProject\bin\Debug_Dotnet\System.Windows.Interactivity.dll
+D:\OneDrive\07-Data_Public\04-Data_Revit\01-Revit API\01-Solution\SampleProject Multi Target\SampleProject\bin\Debug_Dotnet\Newtonsoft.Json.dll
+D:\OneDrive\07-Data_Public\04-Data_Revit\01-Revit API\01-Solution\SampleProject Multi Target\SampleProject\bin\Debug_Dotnet\de\MahApps.Metro.resources.dll
+D:\OneDrive\07-Data_Public\04-Data_Revit\01-Revit API\01-Solution\SampleProject Multi Target\SampleProject\bin\Debug_Dotnet\VSolRC.Common.2020.dll
+D:\OneDrive\07-Data_Public\04-Data_Revit\01-Revit API\01-Solution\SampleProject Multi Target\SampleProject\obj\2020\SampleProject_Dotnet.csproj.AssemblyReference.cache
+D:\OneDrive\07-Data_Public\04-Data_Revit\01-Revit API\01-Solution\SampleProject Multi Target\SampleProject\obj\2020\SampleProject_Dotnet.GeneratedMSBuildEditorConfig.editorconfig
+D:\OneDrive\07-Data_Public\04-Data_Revit\01-Revit API\01-Solution\SampleProject Multi Target\SampleProject\obj\2020\SampleProject_Dotnet.csproj.CoreCompileInputs.cache
+D:\OneDrive\07-Data_Public\04-Data_Revit\01-Revit API\01-Solution\SampleProject Multi Target\SampleProject\obj\2020\SamplePr.0893759F.Up2Date
+D:\OneDrive\07-Data_Public\04-Data_Revit\01-Revit API\01-Solution\SampleProject Multi Target\SampleProject\obj\2020\AddRebarDetail.2020.dll
+D:\OneDrive\07-Data_Public\04-Data_Revit\01-Revit API\01-Solution\SampleProject Multi Target\SampleProject\obj\2020\AddRebarDetail.2020.pdb

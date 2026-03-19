@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Assembly info -->
+  <PropertyGroup>
+    <AssemblyTitle>VSolution [Sample] - Tool for Revit</AssemblyTitle>
+    <Description>Tools for Revit</Description>
+    <Company>Atlasindustries</Company>
+    <Authors>VuongLDT</Authors>
+    <Product>VSolution [Sample]</Product>
+    <Copyright>Copyright © 2020-2026 VuongLDT</Copyright>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <ComVisible>false</ComVisible>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <!-- General info -->
+  <PropertyGroup>
+    <UseWindowsForms>True</UseWindowsForms>
+    <UseWPF>true</UseWPF>
+    <OutputType>Library</OutputType>
+    <RootNamespace>VSolution</RootNamespace>
+    <Nullable>disable</Nullable>
+    <Deterministic>true</Deterministic>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <NoWarn>1701;1702;MSB3277</NoWarn>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>8.0</LangVersion>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <Configurations>2019;2020;2021;2022;2023;2024</Configurations>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <OutputPath>bin\Debug_dotNETFw\</OutputPath>
+    <StartAction>Program</StartAction>
+    <StartProgram>$(ProgramW6432)\Autodesk\Revit 2020\Revit.exe</StartProgram>
+  </PropertyGroup>
+  
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <DefineConstants>TRACE</DefineConstants>
+    <OutputPath>bin\Release\</OutputPath>
+    <StartAction>Program</StartAction>
+    <StartProgram>$(ProgramW6432)\Autodesk\Revit 2020\Revit.exe</StartProgram>
+  </PropertyGroup>
+
+  <!-- Configuration cho các Revit Version -->
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == '2019|AnyCPU'">
+    <AssemblyName>SampleAddin.Cmd.2019</AssemblyName>
+    <DefineConstants>TRACE;DEBUG;RELEASE2019</DefineConstants>
+    <OutputPath>bin\Debug_dotNETFw\</OutputPath>
+    <StartAction>Program</StartAction>
+    <StartProgram>$(ProgramW6432)\Autodesk\Revit 2019\Revit.exe</StartProgram>
+    <TargetFramework>net47</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == '2020|AnyCPU'">
+    <AssemblyName>SampleAddin.Cmd.2020</AssemblyName>
+    <DefineConstants>TRACE;DEBUG;RELEASE2020</DefineConstants>
+    <OutputPath>bin\Debug_dotNETFw\</OutputPath>
+    <StartAction>Program</StartAction>
+    <StartProgram>$(ProgramW6432)\Autodesk\Revit 2020\Revit.exe</StartProgram>
+    <TargetFramework>net47</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == '2021|AnyCPU'">
+    <AssemblyName>SampleAddin.Cmd.2021</AssemblyName>
+    <DefineConstants>TRACE;DEBUG;RELEASE2021</DefineConstants>
+    <OutputPath>bin\Debug_dotNETFw\</OutputPath>
+    <StartAction>Program</StartAction>
+    <StartProgram>$(ProgramW6432)\Autodesk\Revit 2021\Revit.exe</StartProgram>
+    <TargetFramework>net48</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == '2022|AnyCPU'">
+    <AssemblyName>SampleAddin.Cmd.2022</AssemblyName>
+    <DefineConstants>TRACE;DEBUG;RELEASE2022</DefineConstants>
+    <OutputPath>bin\Debug_dotNETFw\</OutputPath>
+    <StartAction>Program</StartAction>
+    <StartProgram>$(ProgramW6432)\Autodesk\Revit 2022\Revit.exe</StartProgram>
+    <TargetFramework>net48</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == '2023|AnyCPU'">
+    <AssemblyName>SampleAddin.Cmd.2023</AssemblyName>
+    <DefineConstants>TRACE;DEBUG;RELEASE2023</DefineConstants>
+    <OutputPath>bin\Debug_dotNETFw\</OutputPath>
+    <StartAction>Program</StartAction>
+    <StartProgram>$(ProgramW6432)\Autodesk\Revit 2023\Revit.exe</StartProgram>
+    <TargetFramework>net48</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == '2024|AnyCPU'">
+    <AssemblyName>SampleAddin.Cmd.2024</AssemblyName>
+    <DefineConstants>TRACE;DEBUG;RELEASE2024</DefineConstants>
+    <OutputPath>bin\Debug_dotNETFw\</OutputPath>
+    <StartAction>Program</StartAction>
+    <StartProgram>$(ProgramW6432)\Autodesk\Revit 2024\Revit.exe</StartProgram>
+    <TargetFramework>net48</TargetFramework>
+  </PropertyGroup>
+
+  <!-- ============================================================== -->
+  <!-- PackageReference -->
+  <ItemGroup>
+    <PackageReference Include="EPPlus" Version="4.5.3.3" />
+    <PackageReference Include="MahApps.Metro" Version="2.4.10" />
+    <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.135" />
+    <PackageReference Include="MvvmLight" Version="5.4.1.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+  
+  <!-- ============================================================== -->
+  <!-- Local References -->
+
+
+  
+  <!-- ============================================================== -->
+  <!-- Revit References -->
+  <ItemGroup>
+    <!-- 2018 -->
+    <Reference Include="RevitAPI" Condition=" '$(Configuration)' == '2018'">
+      <HintPath>C:\Program Files\Autodesk\Revit 2018\RevitAPI.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="RevitAPIUI" Condition=" '$(Configuration)' == '2018'">
+      <HintPath>C:\Program Files\Autodesk\Revit 2018\RevitAPIUI.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="AdWindows" Condition=" '$(Configuration)' == '2018'">
+      <HintPath>C:\Program Files\Autodesk\Revit 2018\AdWindows.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+
+    <!-- 2019 -->
+    <Reference Include="RevitAPI" Condition=" '$(Configuration)' == '2019'">
+      <HintPath>C:\Program Files\Autodesk\Revit 2019\RevitAPI.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="RevitAPIUI" Condition=" '$(Configuration)' == '2019'">
+      <HintPath>C:\Program Files\Autodesk\Revit 2019\RevitAPIUI.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="AdWindows" Condition=" '$(Configuration)' == '2019'">
+      <HintPath>C:\Program Files\Autodesk\Revit 2019\AdWindows.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+
+    <!-- 2020 -->
+    <Reference Include="RevitAPI" Condition=" '$(Configuration)' == '2020'">
+      <HintPath>C:\Program Files\Autodesk\Revit 2020\RevitAPI.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="RevitAPIUI" Condition=" '$(Configuration)' == '2020'">
+      <HintPath>C:\Program Files\Autodesk\Revit 2020\RevitAPIUI.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="AdWindows" Condition=" '$(Configuration)' == '2020'">
+      <HintPath>C:\Program Files\Autodesk\Revit 2020\AdWindows.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+
+    <!-- 2021 -->
+    <Reference Include="RevitAPI" Condition=" '$(Configuration)' == '2021'">
+      <HintPath>C:\Program Files\Autodesk\Revit 2021\RevitAPI.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="RevitAPIUI" Condition=" '$(Configuration)' == '2021'">
+      <HintPath>C:\Program Files\Autodesk\Revit 2021\RevitAPIUI.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="AdWindows" Condition=" '$(Configuration)' == '2021'">
+      <HintPath>C:\Program Files\Autodesk\Revit 2021\AdWindows.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+
+    <!-- 2022 -->
+    <Reference Include="RevitAPI" Condition=" '$(Configuration)' == '2022'">
+      <HintPath>C:\Program Files\Autodesk\Revit 2022\RevitAPI.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="RevitAPIUI" Condition=" '$(Configuration)' == '2022'">
+      <HintPath>C:\Program Files\Autodesk\Revit 2022\RevitAPIUI.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="AdWindows" Condition=" '$(Configuration)' == '2022'">
+      <HintPath>C:\Program Files\Autodesk\Revit 2022\AdWindows.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+
+    <!-- 2023 -->
+    <Reference Include="RevitAPI" Condition=" '$(Configuration)' == '2023'">
+      <HintPath>C:\Program Files\Autodesk\Revit 2023\RevitAPI.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="RevitAPIUI" Condition=" '$(Configuration)' == '2023'">
+      <HintPath>C:\Program Files\Autodesk\Revit 2023\RevitAPIUI.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="AdWindows" Condition=" '$(Configuration)' == '2023'">
+      <HintPath>C:\Program Files\Autodesk\Revit 2023\AdWindows.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+
+    <!-- 2024 -->
+    <Reference Include="RevitAPI" Condition=" '$(Configuration)' == '2024'">
+      <HintPath>C:\Program Files\Autodesk\Revit 2024\RevitAPI.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="RevitAPIUI" Condition=" '$(Configuration)' == '2024'">
+      <HintPath>C:\Program Files\Autodesk\Revit 2024\RevitAPIUI.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="AdWindows" Condition=" '$(Configuration)' == '2024'">
+      <HintPath>C:\Program Files\Autodesk\Revit 2024\AdWindows.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    
+  </ItemGroup>
+  
+  <!-- ============================================================== -->
+  <ItemGroup>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Core" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  
+  
+ </Project>

@@ -1,0 +1,42 @@
+C:\Users\vuongldt\Desktop\SampleProject Multi Target Fw\SampleProject\obj\2019\SampleProject_dotNETFw.csproj.AssemblyReference.cache
+C:\Users\vuongldt\Desktop\SampleProject Multi Target Fw\SampleProject\obj\2019\SampleProject_dotNETFw.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vuongldt\Desktop\SampleProject Multi Target Fw\SampleProject\obj\2019\SampleProject_dotNETFw.AssemblyInfoInputs.cache
+C:\Users\vuongldt\Desktop\SampleProject Multi Target Fw\SampleProject\obj\2019\SampleProject_dotNETFw.AssemblyInfo.cs
+C:\Users\vuongldt\Desktop\SampleProject Multi Target Fw\SampleProject\obj\2019\SampleProject_dotNETFw.csproj.CoreCompileInputs.cache
+C:\Users\vuongldt\Desktop\SampleProject Multi Target Fw\SampleProject\bin\Debug_dotNETFw\SampleAddin.Cmd.2019.dll
+C:\Users\vuongldt\Desktop\SampleProject Multi Target Fw\SampleProject\bin\Debug_dotNETFw\SampleAddin.Cmd.2019.pdb
+C:\Users\vuongldt\Desktop\SampleProject Multi Target Fw\SampleProject\bin\Debug_dotNETFw\CommonServiceLocator.dll
+C:\Users\vuongldt\Desktop\SampleProject Multi Target Fw\SampleProject\bin\Debug_dotNETFw\ControlzEx.dll
+C:\Users\vuongldt\Desktop\SampleProject Multi Target Fw\SampleProject\bin\Debug_dotNETFw\EPPlus.dll
+C:\Users\vuongldt\Desktop\SampleProject Multi Target Fw\SampleProject\bin\Debug_dotNETFw\MahApps.Metro.dll
+C:\Users\vuongldt\Desktop\SampleProject Multi Target Fw\SampleProject\bin\Debug_dotNETFw\Microsoft.Xaml.Behaviors.dll
+C:\Users\vuongldt\Desktop\SampleProject Multi Target Fw\SampleProject\bin\Debug_dotNETFw\GalaSoft.MvvmLight.Extras.dll
+C:\Users\vuongldt\Desktop\SampleProject Multi Target Fw\SampleProject\bin\Debug_dotNETFw\GalaSoft.MvvmLight.Platform.dll
+C:\Users\vuongldt\Desktop\SampleProject Multi Target Fw\SampleProject\bin\Debug_dotNETFw\GalaSoft.MvvmLight.dll
+C:\Users\vuongldt\Desktop\SampleProject Multi Target Fw\SampleProject\bin\Debug_dotNETFw\System.Windows.Interactivity.dll
+C:\Users\vuongldt\Desktop\SampleProject Multi Target Fw\SampleProject\bin\Debug_dotNETFw\Newtonsoft.Json.dll
+C:\Users\vuongldt\Desktop\SampleProject Multi Target Fw\SampleProject\bin\Debug_dotNETFw\de\MahApps.Metro.resources.dll
+C:\Users\vuongldt\Desktop\SampleProject Multi Target Fw\SampleProject\obj\2019\SamplePr.031D11BE.Up2Date
+C:\Users\vuongldt\Desktop\SampleProject Multi Target Fw\SampleProject\obj\2019\SampleAddin.Cmd.2019.dll
+C:\Users\vuongldt\Desktop\SampleProject Multi Target Fw\SampleProject\obj\2019\SampleAddin.Cmd.2019.pdb
+D:\Individual\10.Revit API\SampleProject\SampleProject\bin\Debug_dotNETFw\SampleAddin.Cmd.2019.dll
+D:\Individual\10.Revit API\SampleProject\SampleProject\bin\Debug_dotNETFw\SampleAddin.Cmd.2019.pdb
+D:\Individual\10.Revit API\SampleProject\SampleProject\bin\Debug_dotNETFw\CommonServiceLocator.dll
+D:\Individual\10.Revit API\SampleProject\SampleProject\bin\Debug_dotNETFw\ControlzEx.dll
+D:\Individual\10.Revit API\SampleProject\SampleProject\bin\Debug_dotNETFw\EPPlus.dll
+D:\Individual\10.Revit API\SampleProject\SampleProject\bin\Debug_dotNETFw\MahApps.Metro.dll
+D:\Individual\10.Revit API\SampleProject\SampleProject\bin\Debug_dotNETFw\Microsoft.Xaml.Behaviors.dll
+D:\Individual\10.Revit API\SampleProject\SampleProject\bin\Debug_dotNETFw\GalaSoft.MvvmLight.Extras.dll
+D:\Individual\10.Revit API\SampleProject\SampleProject\bin\Debug_dotNETFw\GalaSoft.MvvmLight.Platform.dll
+D:\Individual\10.Revit API\SampleProject\SampleProject\bin\Debug_dotNETFw\GalaSoft.MvvmLight.dll
+D:\Individual\10.Revit API\SampleProject\SampleProject\bin\Debug_dotNETFw\System.Windows.Interactivity.dll
+D:\Individual\10.Revit API\SampleProject\SampleProject\bin\Debug_dotNETFw\Newtonsoft.Json.dll
+D:\Individual\10.Revit API\SampleProject\SampleProject\bin\Debug_dotNETFw\de\MahApps.Metro.resources.dll
+D:\Individual\10.Revit API\SampleProject\SampleProject\obj\2019\SampleProject_dotNETFw.csproj.AssemblyReference.cache
+D:\Individual\10.Revit API\SampleProject\SampleProject\obj\2019\SampleProject_dotNETFw.GeneratedMSBuildEditorConfig.editorconfig
+D:\Individual\10.Revit API\SampleProject\SampleProject\obj\2019\SampleProject_dotNETFw.AssemblyInfoInputs.cache
+D:\Individual\10.Revit API\SampleProject\SampleProject\obj\2019\SampleProject_dotNETFw.AssemblyInfo.cs
+D:\Individual\10.Revit API\SampleProject\SampleProject\obj\2019\SampleProject_dotNETFw.csproj.CoreCompileInputs.cache
+D:\Individual\10.Revit API\SampleProject\SampleProject\obj\2019\SamplePr.031D11BE.Up2Date
+D:\Individual\10.Revit API\SampleProject\SampleProject\obj\2019\SampleAddin.Cmd.2019.dll
+D:\Individual\10.Revit API\SampleProject\SampleProject\obj\2019\SampleAddin.Cmd.2019.pdb
