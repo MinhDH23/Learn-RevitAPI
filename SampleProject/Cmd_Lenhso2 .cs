@@ -87,6 +87,8 @@ namespace Minhdh
                     // Cộng thêm 1 vào giá trị "RevSheet"
                     int new_RevSheet_int = revSheet_int + 1;
 
+
+                    //...
                     // Tách chuỗi PTA Acceptance Stamp tại dấu '-'
                     string[] splitStamp = ptaAcceptanceStamp.Split(new char[] { '-' }, 2);
                     string baseStamp = splitStamp[0].Trim();
