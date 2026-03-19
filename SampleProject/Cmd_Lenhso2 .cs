@@ -81,6 +81,9 @@ namespace Minhdh
                     // Lấy giá trị hiện tại của parameter "RevSheet"
                     string revSheet = doiTuong.LookupParameter(para_RevSheet).AsValueString();
 
+                    // vuongldt: code này phải được đưa vào try/catch để tránh lỗi có chứa kí tự chữ sẽ không convert được sang int
+                    //zzz
+                    //
                     // Chuyển giá trị "RevSheet" từ string sang int
                     int revSheet_int = Convert.ToInt32(revSheet);
 
@@ -90,6 +93,7 @@ namespace Minhdh
                     // Tách chuỗi PTA Acceptance Stamp tại dấu '-'
                     string[] splitStamp = ptaAcceptanceStamp.Split(new char[] { '-' }, 2);
                     string baseStamp = splitStamp[0].Trim();
+
 
                     // Tạo chuỗi mới cho parameter "PTA Acceptance Stamp" bằng cách nối giá trị cũ với giá trị mới của "RevSheet"
                     string new_PtaAcceptanceStamp = baseStamp + "- " + new_RevSheet_int.ToString("D2");

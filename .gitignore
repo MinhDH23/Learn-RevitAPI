@@ -1,0 +1,16 @@
+# Visual Studio
+.vs/
+*.user
+bin/
+obj/
+
+# Node.js
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+
+# File tạm hệ thống
+Thumbs.db
+.DS_Store
