@@ -82,7 +82,7 @@ namespace Minhdh
                     string revSheet = doiTuong.LookupParameter(para_RevSheet).AsValueString();
 
                     // vuongldt: code này phải được đưa vào try/catch để tránh lỗi có chứa kí tự chữ sẽ không convert được sang int
-                    //
+                    //zzz
                     //
                     // Chuyển giá trị "RevSheet" từ string sang int
                     int revSheet_int = Convert.ToInt32(revSheet);
