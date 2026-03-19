@@ -1,7 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Individual\\10.Revit API\\SampleProject\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\OneDrive\\07-Data_Public\\04-Data_Revit\\01-Revit API\\03-Company\\Training Revit API\\Minhdh-Project-01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{20DD859C-1367-4C71-90E7-7ACD4DD76BAC}|SampleProject\\SampleProject_dotNET.csproj|d:\\onedrive\\07-data_public\\04-data_revit\\01-revit api\\03-company\\training revit api\\minhdh-project-01\\sampleproject\\cmd_lenhso2 .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20DD859C-1367-4C71-90E7-7ACD4DD76BAC}|SampleProject\\SampleProject_dotNET.csproj|solutionrelative:sampleproject\\cmd_lenhso2 .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +14,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cmd_Lenhso2 .cs",
+              "DocumentMoniker": "D:\\OneDrive\\07-Data_Public\\04-Data_Revit\\01-Revit API\\03-Company\\Training Revit API\\Minhdh-Project-01\\SampleProject\\Cmd_Lenhso2 .cs",
+              "RelativeDocumentMoniker": "SampleProject\\Cmd_Lenhso2 .cs",
+              "ToolTip": "D:\\OneDrive\\07-Data_Public\\04-Data_Revit\\01-Revit API\\03-Company\\Training Revit API\\Minhdh-Project-01\\SampleProject\\Cmd_Lenhso2 .cs",
+              "RelativeToolTip": "SampleProject\\Cmd_Lenhso2 .cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAgwFMAAACDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T08:32:02.147Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
             },
             {
               "$type": "Bookmark",
