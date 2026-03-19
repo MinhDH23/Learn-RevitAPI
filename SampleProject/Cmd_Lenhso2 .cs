@@ -92,6 +92,7 @@ namespace Minhdh
                     string[] splitStamp = ptaAcceptanceStamp.Split(new char[] { '-' }, 2);
                     string baseStamp = splitStamp[0].Trim();
 
+
                     // Tạo chuỗi mới cho parameter "PTA Acceptance Stamp" bằng cách nối giá trị cũ với giá trị mới của "RevSheet"
                     string new_PtaAcceptanceStamp = baseStamp + "- " + new_RevSheet_int.ToString("D2");
                                         
