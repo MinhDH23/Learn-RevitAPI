@@ -82,28 +82,57 @@ namespace Minhdh
                     string revSheet = doiTuong.LookupParameter(para_RevSheet).AsValueString();
 
                     // ??? vuongldt: code này phải được đưa vào try/catch để tránh lỗi có chứa kí tự chữ sẽ không convert được sang int
-                    // Chuyển giá trị "RevSheet" từ string sang int
-                    int revSheet_int = Convert.ToInt32(revSheet);
 
-                    // Cộng thêm 1 vào giá trị "RevSheet"
+                    // Chuyển giá trị "RevSheet" từ string sang int
+                    //int revSheet_int = Convert.ToInt32(revSheet);
+
+                    // Tách phần số ở đầu chuỗi (ví dụ: "01A" => "01")
+                    string numberPart = "";
+                    foreach (char c in revSheet)
+                    {
+                        if (char.IsDigit(c))
+                            numberPart += c;
+                        else
+                            break; // dừng lại khi gặp ký tự không phải số đầu tiên
+                    }
+
+                    // Nếu không tìm thấy số, bỏ qua đối tượng này
+                    if (string.IsNullOrEmpty(numberPart))
+                    {
+                        TaskDialog.Show("Lỗi dữ liệu", $"Không tách được số từ RevSheet: '{revSheet}' trên đối tượng {doiTuong.Id}");
+                        continue;
+                    }
+
+                    // Cộng thêm 1
+                    int revSheet_int = int.Parse(numberPart);
                     int new_RevSheet_int = revSheet_int + 1;
+
+                    // Format lại thành 2 chữ số
+                    string new_RevSheet = new_RevSheet_int.ToString("D2");
 
                     // ??? vuongldt: Thêm điều kiện if chỗ này để kiểm tra xem chuỗi hiện tại có chứa dấu '-' hay không,
                     // nếu không có thì sẽ tạo chuỗi mới theo format "RevSheet" + "- " + giá trị mới của "RevSheet"
 
-                    // Tách chuỗi PTA Acceptance Stamp tại dấu '-'
-                    string[] splitStamp = ptaAcceptanceStamp.Split(new char[] { '-' }, 2);
-                    string baseStamp = splitStamp[0].Trim();
+                    // Kiểm tra chuỗi có chứa dấu '-' hay không
+                    string new_PtaAcceptanceStamp;
 
-                    // Tạo chuỗi mới cho parameter "PTA Acceptance Stamp" bằng cách nối giá trị cũ với giá trị mới của "RevSheet"
-                    string new_PtaAcceptanceStamp = baseStamp + "- " + new_RevSheet_int.ToString("D2");
-                                        
+                    if (ptaAcceptanceStamp.Contains("-"))
+                    {
+                        string[] splitStamp = ptaAcceptanceStamp.Split(new char[] { '-' }, 2);
+                        string baseStamp = splitStamp[0].Trim();
+                        new_PtaAcceptanceStamp = baseStamp + "- " + new_RevSheet_int.ToString("D2");
+                    }
+                    else
+                    {
+                        new_PtaAcceptanceStamp = ptaAcceptanceStamp + "- " + new_RevSheet_int.ToString("D2");
+                    }
+
                     // Gán vào parameter "RevSheet"
-                    doiTuong.LookupParameter(para_RevSheet).Set(new_RevSheet_int.ToString("D2"));
-                    
+                    doiTuong.LookupParameter(para_RevSheet).Set(new_RevSheet);
+
                     // Gán vào parameter "PTA Acceptance Stamp"
                     doiTuong.LookupParameter(para_PTAAcceptanceStamp).Set(new_PtaAcceptanceStamp);
-                                        
+
                 }
                 trans.Commit();
 
