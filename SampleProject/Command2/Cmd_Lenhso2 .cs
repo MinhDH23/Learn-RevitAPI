@@ -81,12 +81,15 @@ namespace Minhdh
                     // Lấy giá trị hiện tại của parameter "RevSheet"
                     string revSheet = doiTuong.LookupParameter(para_RevSheet).AsValueString();
 
-                    // vuongldt: code này phải được đưa vào try/catch để tránh lỗi có chứa kí tự chữ sẽ không convert được sang int
+                    // ??? vuongldt: code này phải được đưa vào try/catch để tránh lỗi có chứa kí tự chữ sẽ không convert được sang int
                     // Chuyển giá trị "RevSheet" từ string sang int
                     int revSheet_int = Convert.ToInt32(revSheet);
 
                     // Cộng thêm 1 vào giá trị "RevSheet"
                     int new_RevSheet_int = revSheet_int + 1;
+
+                    // ??? vuongldt: Thêm điều kiện if chỗ này để kiểm tra xem chuỗi hiện tại có chứa dấu '-' hay không,
+                    // nếu không có thì sẽ tạo chuỗi mới theo format "RevSheet" + "- " + giá trị mới của "RevSheet"
 
                     // Tách chuỗi PTA Acceptance Stamp tại dấu '-'
                     string[] splitStamp = ptaAcceptanceStamp.Split(new char[] { '-' }, 2);
